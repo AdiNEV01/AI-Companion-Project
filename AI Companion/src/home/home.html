@@ -4,8 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="home.css">
 </head>
 <body>
-    <h1>This is home page!</h1>   
+    <header class="header">
+        <h1>Dashboard</h1>
+        <div class="profile-container">
+            <button id="profile-btn">
+                <img src="../assets/profile_icon_183860.svg" alt="Profile">
+            </button>
+        </div>
+        <div class="header-btn-container">
+            <button id="logout-btn">
+                <img src="../assets/logout_icon_184025.svg" alt="Logout">
+            </button>
+            <button id="setting-btn">
+                <img src="../assets/setting_icon_184259.svg" alt="Settings">
+            </button>
+        </div>
+    </header>
+
+        
+    </section>
+    <section class="content-row">
+        <section class="content">
+            <div class="emoji-diagnosis"><img src="../assets/happy_smiley_icon_123391.svg" alt=""></div>
+        </section>
+        <section class="statistics-section">
+            <button class="chat-btn">Chat with Polly</button>
+            <h1>Your Check-In</h1>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-label">How you’ve been feeling</span>
+                    <span class="stat-value">Mostly calm 🌿</span>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-label">You checked in</span>
+                    <span class="stat-value">3 times this week</span>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-label">Last conversation</span>
+                    <span class="stat-value">Today</span>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-label">Polly is proud of you</span>
+                    <span class="stat-value">💙 Showing up matters</span>
+                </div>
+            </div>
+        </section>
+
+    </section>
+    <section class="history-section">
+        <h2>Your past conversations</h2>
+
+        <ul class="chat-history">
+            <li class="chat-card">
+                <h3>Check-in</h3>
+                <p class="chat-date">Jan 20, 2026</p>
+                <p class="chat-summary">
+                    You talked about feeling overwhelmed and explored gentle ways to rest.
+                </p>
+            </li>
+
+            <li class="chat-card">
+                <h3>Evening chat</h3>
+                <p class="chat-date">Jan 25, 2026</p>
+                <p class="chat-summary">
+                    You shared how your week was going and reflected on small wins.
+                </p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="diagnosis-section">
+        <h2>Your Recent Check-ins</h2>
+        <ul class="recent-diagnoses">
+            <li class="diagnosis-card">
+                <h3>Morning Check-in</h3>
+                <p class="checkin-date">Jan 15, 2026</p>
+                <p class="checkin-summary">
+                    You reflected on your morning mood and noted feeling a bit tired. Polly encouraged you to take a short break.
+                </p>
+            </li>
+            <li class="diagnosis-card">
+                <h3>Afternoon Check-in</h3>
+                <p class="checkin-date">Feb 10, 2026</p>
+                <p class="checkin-summary">
+                    You shared feeling stressed at work. Polly suggested a breathing exercise to help you relax.
+                </p>
+            </li>
+            <li class="diagnosis-card">
+                <h3>Evening Check-in</h3>
+                <p class="checkin-date">Mar 5, 2026</p>
+                <p class="checkin-summary">
+                    You noted some headaches. Polly reminded you to rest and drink water.
+                </p>
+            </li>
+            <li class="diagnosis-card">
+                <h3>Weekly Reflection</h3>
+                <p class="checkin-date">Apr 1, 2026</p>
+                <p class="checkin-summary">
+                    You reflected on your week and acknowledged small wins. Polly celebrated your progress with you.
+                </p>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Polly AI Companion. All rights reserved.</p>
+    </footer>
+    <script type="module" src="home.js"></script>   
 </body>
 </html>
