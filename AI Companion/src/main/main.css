@@ -33,12 +33,12 @@ button {
 }
 
 button:hover {
-    background-color: #9b88d6;
+    background-color: #7a7a7b;
     align-self: center;
 }
 
 h1, h2 {
-    color: #5a6fc9;
+    color: #405bd3;
 }
 
 input, textarea {
@@ -55,7 +55,7 @@ input:focus, textarea:focus {
 }
 
 header{
-    background-color: #d4c5ff;
+    background-color: #96a8f0;
     padding: 20px;
     text-align: center;
     border-radius: 0 0 20px 20px;
@@ -64,8 +64,8 @@ header{
 }
 
 nav a {
-    color: #5a6fc9;
-    background-color: #d4c5ff;
+    color: #405bd3;
+    background-color: #96a8f0;
     padding: 14px 16px;
     text-decoration: none;
     margin: 0 10px;
@@ -91,7 +91,7 @@ li{
     align-items: center;
 }
 footer {
-    background-color: #d4c5ff;
+    background-color: #96a8f0;
     padding: 1px;
     text-align: center;
     border-radius: 20px 20px 0 0;

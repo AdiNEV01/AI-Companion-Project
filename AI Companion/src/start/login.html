@@ -8,26 +8,31 @@
 </head>
 <body>
     <section class="login-page">
-        <h1>Welcome to AI Compnion</h1>
-        <form >
-            <label for="username">username</label>
-            <input type="text">
-            <br><br>
-            <label for="password">password</label>
-            <input type="text">
+        <section class="header-section">
+            <h1>Welcome to Polly</h1>
+            <p>Your personal AI companion.</p>
+        </section>
+        <form>
+            <section class="input-box">
+                <label for="username">
+                    <input type="text" placeholder="Username or Email" required>
+                </label>
+            </section>
+            <br>
+            <section class="input-box">
+                <label for="password">
+                    <input type="password" placeholder="Enter your password" required>
+                </label>
+            </section>
             <a href="#">forgot password?</a>
-            <br><br>
+            <br>
             <button type="submit" id="login-btn">Login</button>
         </form>
-        <br>
-
         <section id="checkbox-container">
             <label for="remember-me" class="checkbox-label">
                 <input type="checkbox" class="checkbox">Remember me.
             </label> 
         </section>
-        
-        <br><br>
         <p>Don't have an account? <a href="#">Sign up</a></p> 
     </section>
 </body>
