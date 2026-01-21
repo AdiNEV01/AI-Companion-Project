@@ -1,6 +1,6 @@
 function start() {
     console.log("Start button clicked");
-    window.location.href = './src/start/signin.html';
+    window.location.href = './src/start/login.html';
 }
 
 document.addEventListener('DOMContentLoaded', function() {
